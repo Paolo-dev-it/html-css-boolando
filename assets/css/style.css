@@ -60,11 +60,14 @@ main {
 
 .model-1 {
     position: relative;
-}
-
-.levis {
     width: 100%;
 }
+
+ .levis  {
+    width: 100%;
+}
+
+
 
 .like {
     width: 50px;

@@ -6,7 +6,12 @@
 
 header {
     background-color: orange;
+    z-index: 1;
+    width: 100%;
+    position: fixed;
 }
+
+
 
 nav {
     width: 60%;
@@ -14,10 +19,11 @@ nav {
     display: flex;
 }
 
+
+
 main {
     width: 100%;
     margin: 0 auto;
-        
 }
 
 .container {
@@ -98,6 +104,20 @@ main {
     position: absolute;
     bottom: 100px;
 }
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.copyright {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 
 

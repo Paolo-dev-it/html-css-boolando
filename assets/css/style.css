@@ -48,7 +48,7 @@ main {
     padding: 100px 20px;
 }
 
-.first-row {
+.first-row, .second-row {
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
@@ -64,21 +64,24 @@ main {
     width: 32%;
 }
 
-.levis {
+.model-1 > img {
     width: 100%;
 }
 
-.levis:hover {
-    width: 100%;
+.cardHover {
     display: none;
+    position: absolute;
+    bottom: 57px;
 }
 
-.levisHover {
-    display: none;
-}
-
-.levisHover:hover {
+.model-1:hover .cardHover {
     display: block;
+}
+
+
+
+.cardHover:hover {
+    display: none;
 }
 
 .like {

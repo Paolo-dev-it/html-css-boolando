@@ -79,7 +79,6 @@ main {
 }
 
 
-
 .cardHover:hover {
     display: none;
 }
@@ -99,32 +98,12 @@ main {
     padding: 10px 10px;
 }
 
-.guess {
-    width: 100%;
-}
-
-.green {
-    width: 100%;
-}
 
 .second-row {
     display: flex;
     justify-content: space-between;
 }
 
-.levis-2 {
-    width: 100%;
-}
-
-.long-dress {
-    width: 100%;
-}
-
-.jumper {
-    width: 100%;
-}
-
-.description {}
 
 .sale {
     background-color: red;
@@ -149,6 +128,10 @@ main {
     bottom: 100px;
     color: white;
     padding: 5px 5px;
+}
+
+.like span:hover {
+    color: red;
 }
 
 .type {
